@@ -1,0 +1,130 @@
+import CriminalJusticeArticles from "../../../Articles/CriminalJusticeArticles/CriminalJusticeArticles";
+
+
+const CriminalJusticeScope = () => {
+    return (
+        <div className="w-full">
+            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+
+            <div className="flex items-center py-8 gap-24">
+                <p>
+                    The Constitutional Law Process, 
+                    Law, Legislation and Policy, 
+                    The Legal Process, 
+                    Contracts, 
+                    Property, 
+                    Torts, 
+                    Legal Research and Writing, 
+                    The Administrative Law Process, 
+                    Law, Theory and Practices of Sentencing, 
+                    Civil Procedure, 
+                    The Law of Evidence, 
+                    Restitution, 
+                    Regulation of Financial Institutions, 
+                    Debtor and Creditor Relations, 
+                    Securities Regulation, 
+                    Commercial and Consumer Law, 
+                    Business Associations, 
+                    Secured Transactions and Negotiable Instruments, 
+                    Real Property Transactions, 
+                    Remedies, 
+                    Trusts, 
+                    Succession and Estate Planning, 
+                    Competition Law, 
+                    Family Law, 
+                    Refugee Law, 
+                    Children and the Law, 
+                    The Individual Employment Relationship, 
+                    Labour Law, 
+                    Jurisprudence, 
+                    Green Legal Theory, 
+                    Environmental Law, 
+                    International Law, 
+                    International Ocean Law, 
+                    International Trade Law, 
+                    Social Welfare Law, 
+                    Collective Agreements: Negotiation and Arbitration, 
+                    Dispute Resolution: Theory and Practice, 
+                    Mediation and Lawyers, 
+                    Legal Theory Workshop, 
+                    Indigenous Lands, Rights and Governance, 
+                    Introduction to the Legal History of "The BC Indian Land Question", 
+                    Immigration and Citizenship Law, 
+                    Contemporary Issues in Law, 
+                    Insurance Law, 
+                    Taxation, 
+                    Advanced Taxation: Corporations, 
+                    Advanced Taxation: International Taxation, 
+                    Intellectual Property, 
+                    Managing Intellectual Property, 
+                    Business Law Clinic, 
+                    Clinical Term, 
+                    Exchange Law Term, 
+                    Environmental Law Centre Clinic, 
+                    Forest Law and Policy, 
+                    Legal Skills, 
+                    Advocacy, 
+                    Sexual Orientation and the Law, 
+                    Race, Ethnicity, Culture and the Law, 
+                    Civil Liberties and the Charter, 
+                    Legal Ethics and Professionalism, 
+                    Historical Foundations of the Common Law, 
+                    Colonial Legal History, 
+                    Conflict of Laws, 
+                    Law, Governance and Development, 
+                    Legal Mooting, 
+                    Patent Law, 
+                    Communications Law and Policy, 
+                    Indigenous Feminist Legal Studies, 
+                    Feminist Legal Theories, 
+                    Law and Society in Southeast Asia, 
+                    Global Issues, 
+                    Public Policy, Law and Dispute Resolution, 
+                    International Human Rights and Dispute Resolution, 
+                    Law of the European Union, 
+                    Law, Constitutionalism and Cultural Difference, 
+                    International Environmental Law, 
+                    International Arbitration, 
+                    Equality, Human Rights, and Social Justice Law, 
+                    Law and Religion, 
+                    Bioethics, Personhood and the Law, 
+                    Animals, Culture and the Law, 
+                    Pension Law and Policy, 
+                    Municipal Law and Sustainability, 
+                    Field Course in Environmental Law and Sustainability, 
+                    Comparative Copyright Law, 
+                    Environmental Law, 
+                    Advanced Legal Research and Writing, 
+                    Review of Current Law and Law Reform, 
+                    Criminology, 
+                    Crime and Delinquency, 
+                    Criminal Law, 
+                    Criminal Procedure Law, 
+                    Correctional Services, 
+                    Criminal Investigation, 
+                    Administration in Criminal Justice, 
+                    The Criminal Justice System, 
+                    Law & Legal Institutions, 
+                    Issues in Criminal Justice, 
+                    Case Management, 
+                    Alternative Justice & Conflict Resolution, 
+                    Indigenous People and Justice, 
+                    Young Offenders & Justice, 
+                    Law Enforcement, 
+                    Women and Criminal Justice, 
+                    Comparative Criminal Justice, 
+                    Islamic Law. 
+                </p>
+            </div>
+
+            <div className='py-2'>
+                <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                <div>
+                    <CriminalJusticeArticles></CriminalJusticeArticles>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default CriminalJusticeScope;

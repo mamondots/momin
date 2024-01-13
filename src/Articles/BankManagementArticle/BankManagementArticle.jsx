@@ -1,0 +1,20 @@
+import useArticles from "../../Hooks/useArticles";
+import ArticleBox from "../ArticleBox/ArticleBox";
+
+const BankManagementArticle = () => {
+    const [articles] = useArticles()
+    const agricultureArticles = articles.filter((article) => article.category === 'Bank Management')
+    return (
+        <div className="">
+            <div>
+                 {
+                    agricultureArticles.map(articles => <ArticleBox key={articles._id} articles={articles}>
+
+                    </ArticleBox>)
+                 }
+            </div>
+        </div>
+    );
+};
+
+export default BankManagementArticle;

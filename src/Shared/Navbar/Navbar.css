@@ -1,0 +1,26 @@
+.down {
+    position: relative;
+}
+.sub{
+    opacity:1;
+}
+.down:hover.sub{
+    opacity:1;
+}
+.journals{
+    transition:0.5s;
+}
+.subJournals{
+    opacity:0;
+    transition:0.5s;
+    visibility:0;
+    transform:translateX(10px);
+    
+}
+.journals:hover .subJournals{
+    opacity:1;
+    visibility:1;
+    pointer-events:all;
+    transform:translateX(0px);
+    
+}
